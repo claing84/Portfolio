@@ -1,0 +1,117 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.light-theme header {
+    background-color: #f0f0f0;
+}
+
+.dark-theme header {
+    background-color: #282828;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+.light-theme .project {
+    border-color: #ddd;
+}
+
+.dark-theme .project {
+    border-color: #444;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*visited links are stored in the browser's history*/
+ /* a:visited {  
+    color: #b491c8
+} */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.light-theme footer {
+    background-color: #333;
+}
+
+.dark-theme footer {
+    background-color: #1a1a1a;
+}
+
+#themeToggle {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#themeToggle:hover {
+    background-color: #0056b3;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
